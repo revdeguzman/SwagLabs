@@ -229,7 +229,7 @@ public class RegressionTest {
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	driver.findElement(By.xpath("//*[@id=\"logout_sidebar_link\"]")).click();
 	
-	//Quit the Drive
+	//Quit the Drivers
 	driver.quit();
 	
   }
