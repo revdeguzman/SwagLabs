@@ -1,17 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-31T01:20:35 CST" name="Default suite" finished-at="2024-03-31T01:20:37 CST" duration-ms="1177">
+  <suite started-at="2024-04-08T23:39:29 CST" name="Default suite" finished-at="2024-04-08T23:39:37 CST" duration-ms="7958">
     <groups>
     </groups>
-    <test started-at="2024-03-31T01:20:35 CST" name="Default test" finished-at="2024-03-31T01:20:37 CST" duration-ms="1177">
-      <class name="Maven_TestNG.Maven_Package.TestData">
-        <test-method signature="getData()[pri:0, instance:Maven_TestNG.Maven_Package.TestData@188715b5]" started-at="2024-03-31T01:20:36 CST" name="getData" finished-at="2024-03-31T01:20:37 CST" duration-ms="1135" status="PASS">
+    <test started-at="2024-04-08T23:39:29 CST" name="Default test" finished-at="2024-04-08T23:39:37 CST" duration-ms="7958">
+      <class name="Maven_TestNG.Maven_Package.RegressionTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Maven_TestNG.Maven_Package.RegressionTest@6dc17b83]" started-at="2024-04-08T23:39:29 CST" name="beforeClass" finished-at="2024-04-08T23:39:33 CST" duration-ms="4187" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getData -->
-      </class> <!-- Maven_TestNG.Maven_Package.TestData -->
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC001()[pri:1, instance:Maven_TestNG.Maven_Package.RegressionTest@6dc17b83]" started-at="2024-04-08T23:39:33 CST" name="TC001" finished-at="2024-04-08T23:39:34 CST" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001 -->
+        <test-method signature="TC002()[pri:2, instance:Maven_TestNG.Maven_Package.RegressionTest@6dc17b83]" started-at="2024-04-08T23:39:34 CST" name="TC002" finished-at="2024-04-08T23:39:34 CST" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002 -->
+        <test-method signature="TC003()[pri:3, instance:Maven_TestNG.Maven_Package.RegressionTest@6dc17b83]" started-at="2024-04-08T23:39:34 CST" name="TC003" finished-at="2024-04-08T23:39:35 CST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003 -->
+        <test-method signature="TC004()[pri:4, instance:Maven_TestNG.Maven_Package.RegressionTest@6dc17b83]" started-at="2024-04-08T23:39:35 CST" name="TC004" finished-at="2024-04-08T23:39:35 CST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004 -->
+        <test-method signature="TC005()[pri:5, instance:Maven_TestNG.Maven_Package.RegressionTest@6dc17b83]" started-at="2024-04-08T23:39:35 CST" name="TC005" finished-at="2024-04-08T23:39:36 CST" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005 -->
+        <test-method signature="TC006()[pri:6, instance:Maven_TestNG.Maven_Package.RegressionTest@6dc17b83]" started-at="2024-04-08T23:39:36 CST" name="TC006" finished-at="2024-04-08T23:39:36 CST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC006 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Maven_TestNG.Maven_Package.RegressionTest@6dc17b83]" started-at="2024-04-08T23:39:36 CST" name="afterClass" finished-at="2024-04-08T23:39:37 CST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Maven_TestNG.Maven_Package.RegressionTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
