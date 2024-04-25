@@ -234,4 +234,4 @@ public class RegressionTest {
 	
   }
 
-} //Push from Eclipse to Git local repository
+} //Verification if this is committed in Local repository.
