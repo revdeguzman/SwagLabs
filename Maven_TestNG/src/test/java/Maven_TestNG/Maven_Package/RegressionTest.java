@@ -232,6 +232,6 @@ public class RegressionTest {
 	//Quit the Drivers
 	driver.quit();
 	
-  }
+  } //test
 
 } //push to git local repo
